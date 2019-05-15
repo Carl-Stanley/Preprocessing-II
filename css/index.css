@@ -169,14 +169,28 @@ img {
   margin: 0 auto;
 }
 .Nav-Top {
+  display: flex;
+  flex-direction: row;
   margin: 0 auto;
   padding: 10px 5px 5px 0px;
   width: 100%;
+  border-bottom: 2px dashed silver;
+}
+.Nav-Top .div-a {
+  display: flex;
+  width: 50%;
+}
+.Nav-Top .div-b {
+  width: 50%;
+  display: flex;
+}
+.Nav-Top nav {
+  margin: 0 auto;
 }
 .Nav-Top nav a {
   text-decoration: none;
   font-size: 1.6rem;
-  padding: 10px 5px 5px 10px;
+  padding: 10px 10px 10px 10px;
 }
 .destination .btn button {
   border: 1px solid black;
@@ -249,5 +263,4 @@ header {
   width: 100%;
   margin: 0 auto;
   background-color: white;
-  border-bottom: 2px dashed silver;
 }
