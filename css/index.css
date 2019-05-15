@@ -171,12 +171,22 @@ img {
 .Nav-Top {
   margin: 0 auto;
   padding: 10px 5px 5px 0px;
-  background-color: beige;
+  background-color: #FFEBCD;
+  border-bottom: 1px dashed black;
+  height: 35px;
+  width: 100%;
 }
 .Nav-Top nav a {
   text-decoration: none;
   font-size: 1.25rem;
   padding: 10px 5px 5px 10px;
+}
+.destination .btn button {
+  border: 1px solid black;
+  width: 50%;
+  height: auto;
+  padding: 5px 5px 5px 5px;
+  border-radius: 10px;
 }
 .footer {
   width: 100%;
