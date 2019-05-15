@@ -245,3 +245,7 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
+header {
+  width: 100%;
+  margin: 0 auto;
+}
