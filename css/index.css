@@ -171,9 +171,6 @@ img {
 .Nav-Top {
   margin: 0 auto;
   padding: 10px 5px 5px 0px;
-  background-color: #FFEBCD;
-  border-bottom: 2px dashed silver;
-  height: 35px;
   width: 100%;
 }
 .Nav-Top nav a {
@@ -183,10 +180,13 @@ img {
 }
 .destination .btn button {
   border: 1px solid black;
-  width: 50%;
+  width: 75%;
   height: auto;
-  padding: 5px 5px 5px 5px;
+  padding: 10px 5px 10px 5px;
   border-radius: 10px;
+  background-color: #188686;
+  color: white;
+  font-size: 1.6rem;
 }
 .footer {
   width: 100%;
@@ -248,4 +248,6 @@ img {
 header {
   width: 100%;
   margin: 0 auto;
+  background-color: white;
+  border-bottom: 2px dashed silver;
 }
