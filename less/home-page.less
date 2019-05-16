@@ -69,20 +69,46 @@ header {
 
 }
 
+/* Media Query*/
 @media (max-width: @mobile) {
+    
+
   html {
     font-size: .30rem;
-  }
-  .container {
 
-    
+    header {
+
+      width: 40%;
+      margin: 0 auto;
+    }
+  
+    footer {
+  
+      width: 40%;
+      margin: 0 auto;
+    }
+
+  }
+  .container {    
     
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     width: 500px;
     margin: 0 auto;
+    
+    .img-content {
+      
+      margin: 0 auto;
 
+    }
+
+    .text-content {
+
+      margin: 0 auto;
+
+
+    }
     .content-section {
 
     display: flex;
@@ -91,7 +117,7 @@ header {
       
       .inverse-content {
 
-        flex-direction: column-reverse;
+        margin: 0 auto;
 
       }
 
@@ -110,19 +136,20 @@ header {
         h1 {
 
           font-size: 2.6rem;
-
+          margin: 0 auto;
         }
 
       }
 
       .div-b nav {
 
-        width:40px;
+        width: 100%;
 
         a {
 
           font-size: 1.25rem;
-
+          margin: 0 auto;
+          padding: 0px;
         }
 
       }
@@ -148,6 +175,10 @@ header {
 
         display: block;
 
+        p {      
+          width: 100%;
+        }
+
     }
 
     .img-content {
@@ -155,6 +186,31 @@ header {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
+
+  }
+
+  .content-destination {
+
+    margin: 0 auto;
+    width: 50%;
+    
+    .destination {
+      
+
+      p {
+
+        line-height: 1;
+
+      }
+      
+      
+    }
+
+   .btn {
+      
+      width: 75%;
+
+    }
 
   }
 

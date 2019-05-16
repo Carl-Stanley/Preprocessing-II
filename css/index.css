@@ -264,9 +264,18 @@ header {
   margin: 0 auto;
   background-color: white;
 }
+/* Media Query*/
 @media (max-width: 500px) {
   html {
     font-size: 0.3rem;
+  }
+  html header {
+    width: 40%;
+    margin: 0 auto;
+  }
+  html footer {
+    width: 40%;
+    margin: 0 auto;
   }
   .container {
     display: flex;
@@ -275,13 +284,19 @@ header {
     width: 500px;
     margin: 0 auto;
   }
+  .container .img-content {
+    margin: 0 auto;
+  }
+  .container .text-content {
+    margin: 0 auto;
+  }
   .container .content-section {
     display: flex;
     flex-direction: column;
     flex-direction: column-reverse;
   }
   .container .content-section .inverse-content {
-    flex-direction: column-reverse;
+    margin: 0 auto;
   }
   .container .Nav-Top {
     display: flex;
@@ -293,12 +308,15 @@ header {
   }
   .container .Nav-Top .div-a h1 {
     font-size: 2.6rem;
+    margin: 0 auto;
   }
   .container .Nav-Top .div-b nav {
-    width: 40px;
+    width: 100%;
   }
   .container .Nav-Top .div-b nav a {
     font-size: 1.25rem;
+    margin: 0 auto;
+    padding: 0px;
   }
   .container .content-pick {
     display: flex;
@@ -313,9 +331,22 @@ header {
   .container .text-content {
     display: block;
   }
+  .container .text-content p {
+    width: 100%;
+  }
   .container .img-content {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+  }
+  .container .content-destination {
+    margin: 0 auto;
+    width: 50%;
+  }
+  .container .content-destination .destination p {
+    line-height: 1;
+  }
+  .container .content-destination .btn {
+    width: 75%;
   }
 }
