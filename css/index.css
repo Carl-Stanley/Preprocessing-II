@@ -267,7 +267,7 @@ header {
 /* Media Query*/
 @media all and (max-width: 500px) {
   html {
-    font-size: 0.2rem;
+    font-size: 0.35rem;
   }
   .footer {
     width: 50%;
@@ -306,6 +306,9 @@ header {
     width: 40%;
     border-bottom: 1px dashed silver;
     text-align: center;
+  }
+  .container .Nav-Top .div-a {
+    margin: 0 auto;
   }
   .container .Nav-Top .div-a h1 {
     padding: 10px 10px 10px 10px;
