@@ -282,10 +282,10 @@ header {
 /* Media Query*/
 @media all and (max-width: 500px) {
   html {
-    font-size: 0.35rem;
+    font-size: 0.5rem;
   }
   .footer {
-    width: 50%;
+    width: 90%;
     margin: 0 auto;
     height: 40px;
   }
@@ -298,11 +298,11 @@ header {
     justify-content: space-around;
   }
   .container .content-section-bus {
-    width: 40%;
+    width: 90%;
     margin: 0 auto;
   }
   .container .img-content {
-    width: 40%;
+    width: 90%;
     margin: 0 auto;
     padding: 2px 2px 2px 2px;
   }
@@ -320,12 +320,12 @@ header {
     display: flex;
   }
   .container .content-section .img-content {
-    width: 40%;
+    width: 90%;
     margin: 0 auto;
     padding: 2px 2px 2px 2px;
   }
   .container .content-section .text-content {
-    width: 40%;
+    width: 90%;
     margin: 0 auto;
   }
   .container .Nav-Top {
@@ -333,7 +333,7 @@ header {
     flex-direction: column;
     margin: 0 auto;
     padding: 0px;
-    width: 40%;
+    width: 90%;
     border-bottom: 1px dashed silver;
     text-align: center;
   }
@@ -343,6 +343,10 @@ header {
   .container .Nav-Top .div-a h1 {
     padding: 10px 10px 10px 10px;
     font-size: 2.6rem;
+    margin: 0 auto;
+  }
+  .container .Nav-Top .div-b {
+    display: flex;
     margin: 0 auto;
   }
   .container .Nav-Top .div-b nav {
@@ -361,9 +365,19 @@ header {
     margin: 0 auto;
   }
   .container .content-pick .destination {
-    width: 40%;
+    width: 70%;
     margin: 0 auto;
     padding-bottom: 5PX;
+  }
+  .container .content-pick .destination button {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .container .content-pick .destination p {
+    margin: 0 auto;
+  }
+  .container .content-pick .destination h4 {
+    margin: 0 auto;
   }
   .container .content-pick p {
     margin: 0 auto;
@@ -381,23 +395,15 @@ header {
   }
   .container .content-destination {
     margin: 0 auto;
-    width: 40%;
+    width: 90%;
   }
   .container .content-destination .destination {
-    width: 40%;
+    display: flex;
+    width: 90%;
     margin: 0 auto;
   }
   .container .content-destination .destination p {
-    width: 40%;
+    width: 90%;
     line-height: 0.25;
-  }
-  .container .content-destination .destination .btn {
-    margin: 0 auto;
-    width: 40%;
-  }
-  .container .content-destination .btn {
-    width: 100%;
-    height: 10%;
-    margin: 0 auto;
   }
 }
