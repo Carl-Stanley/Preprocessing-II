@@ -271,8 +271,17 @@ header {
   .container {
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
     width: 500px;
     margin: 0 auto;
+  }
+  .container .content-section {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+  .container .content-section .inverse-content {
+    flex-direction: column-reverse;
   }
   .container .Nav-Top {
     display: flex;
