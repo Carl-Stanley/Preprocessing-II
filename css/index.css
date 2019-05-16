@@ -266,16 +266,13 @@ header {
 }
 /* Media Query*/
 @media (max-width: 500px) {
+  .footer {
+    width: 50%;
+    margin: 0 auto;
+    height: 40px;
+  }
   html {
-    font-size: 0.3rem;
-  }
-  html header {
-    width: 40%;
-    margin: 0 auto;
-  }
-  html footer {
-    width: 40%;
-    margin: 0 auto;
+    font-size: 0.25rem;
   }
   .container {
     display: flex;
@@ -323,10 +320,17 @@ header {
     flex-direction: column;
     flex-wrap: wrap;
     margin: 0 auto;
-    width: 50%;
+  }
+  .container .content-pick .destination {
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 5PX;
+  }
+  .container .content-pick .destination .btn {
+    width: 100%;
   }
   .container .content-pick p {
-    width: 100%;
+    margin: 0 auto;
   }
   .container .text-content {
     display: block;
@@ -343,10 +347,14 @@ header {
     margin: 0 auto;
     width: 50%;
   }
+  .container .content-destination .destination {
+    margin: 0 auto;
+  }
   .container .content-destination .destination p {
     line-height: 1;
   }
   .container .content-destination .btn {
     width: 75%;
+    margin: 0 auto;
   }
 }
