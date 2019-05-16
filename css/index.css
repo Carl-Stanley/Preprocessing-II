@@ -319,6 +319,15 @@ header {
     margin: 0 auto;
     display: flex;
   }
+  .container .content-section .img-content {
+    width: 40%;
+    margin: 0 auto;
+    padding: 2px 2px 2px 2px;
+  }
+  .container .content-section .text-content {
+    width: 40%;
+    margin: 0 auto;
+  }
   .container .Nav-Top {
     display: flex;
     flex-direction: column;
@@ -372,12 +381,14 @@ header {
   }
   .container .content-destination {
     margin: 0 auto;
-    width: 50%;
+    width: 40%;
   }
   .container .content-destination .destination {
+    width: 40%;
     margin: 0 auto;
   }
   .container .content-destination .destination p {
+    width: 40%;
     line-height: 0.25;
   }
   .container .content-destination .btn {
