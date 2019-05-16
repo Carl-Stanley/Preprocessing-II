@@ -266,13 +266,13 @@ header {
 }
 /* Media Query*/
 @media (max-width: 500px) {
+  html {
+    font-size: 0.2rem;
+  }
   .footer {
     width: 50%;
     margin: 0 auto;
     height: 40px;
-  }
-  html {
-    font-size: 0.25rem;
   }
   .container {
     display: flex;
@@ -291,6 +291,7 @@ header {
     display: flex;
     flex-direction: column;
     flex-direction: column-reverse;
+    border-width: 40%;
   }
   .container .content-section .inverse-content {
     margin: 0 auto;
@@ -304,14 +305,16 @@ header {
     border-bottom: 1px dashed silver;
   }
   .container .Nav-Top .div-a h1 {
+    padding: 10px 10px 10px 10px;
     font-size: 2.6rem;
     margin: 0 auto;
   }
   .container .Nav-Top .div-b nav {
+    margin: 0 auto;
     width: 100%;
   }
   .container .Nav-Top .div-b nav a {
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     margin: 0 auto;
     padding: 0px;
   }
