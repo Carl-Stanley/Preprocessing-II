@@ -68,3 +68,82 @@ header {
  
 
 }
+
+@media (max-width: @mobile) {
+  html {
+    font-size: .30rem;
+  }
+  .container {
+    
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+
+    .Nav-Top {
+
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      padding: 0px;     
+      width: 40%;
+      border-bottom: 1px dashed silver;
+
+      .div-a {
+
+        h1 {
+
+          font-size: 2.6rem;
+
+        }
+
+      }
+
+      .div-b nav {
+
+        width:40px;
+
+        a {
+
+          font-size: 1.25rem;
+
+        }
+
+      }
+
+    }
+
+    .content-pick {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 50%;
+
+        p {
+
+          width: 100%;
+
+        }
+    }
+
+    .text-content {
+
+        display: block;
+
+    }
+
+    .img-content {
+
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+
+  }
+
+  }
+
+  
+
+}
