@@ -304,6 +304,7 @@ header {
   .container .img-content {
     width: 40%;
     margin: 0 auto;
+    padding: 2px 2px 2px 2px;
   }
   .container .text-content {
     margin: 0 auto;
