@@ -202,6 +202,9 @@ img {
   color: white;
   font-size: 1.6rem;
 }
+.destination .btn button:hover {
+  border-radius: 30px;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -233,6 +236,7 @@ img {
 .home .content-section-bus {
   margin: 0 auto;
   display: inline-block;
+  padding-top: 3px;
 }
 .home .content-section-bus .text-content {
   width: 100%;
@@ -285,7 +289,7 @@ header {
     font-size: 0.5rem;
   }
   .footer {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     height: 40px;
   }
@@ -371,7 +375,7 @@ header {
   }
   .container .content-pick .destination button {
     margin: 0 auto;
-    width: 100%;
+    width: 85%;
   }
   .container .content-pick .destination p {
     margin: 0 auto;
