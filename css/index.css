@@ -291,7 +291,7 @@ header {
   .footer {
     width: 80%;
     margin: 0 auto;
-    height: 40px;
+    height: auto;
   }
   .container {
     display: flex;
