@@ -1,3 +1,13 @@
+
+.container {
+
+   
+  max-width: 800px;
+
+
+
+}
+
 .home {
 
   .content-section {
@@ -5,7 +15,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
    
     
     .text-content {
@@ -23,6 +32,28 @@
     }
   }
 
+  .content-section-bus {
+    margin: 0 auto;
+    display: inline-block;
+    padding-top: 3px;
+    
+    
+   
+    
+    .text-content {
+      width: 100%;
+      padding-right: 1%;
+    }
+
+    .img-content {
+      width: 100%;
+      padding-left: 1%;
+
+      img {
+        border-radius: 10px;
+      }
+    }
+  }
   .inverse-content {
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
@@ -40,14 +71,14 @@
 
   .content-destination {
     width: 75%;
-    margin: 0 auto 30px;
+    margin: 0 auto;
 
     img {
       border-radius: 10px;
     }
   }
 
-  .content-pick {
+  .content-pick {    
     padding-top: 30px;
     border-top: 2px dashed @navigation-border;
     display: flex;
@@ -56,6 +87,250 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+      
     }
   }
 }// home
+
+header {
+
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+ 
+
+}
+
+/* Media Query*/
+@media all and (max-width: @mobile) {
+  
+  html {
+
+    font-size: .50rem;
+
+    
+    
+  }
+  
+  .container {
+  
+    max-width: 100%;
+  
+    overflow-x: hidden; 
+  
+  }
+    
+  
+  .footer {
+  
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+
+  } 
+
+  
+  .container {    
+
+    transition: width .2s, height .2s;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 500px;
+    margin: 0 auto;
+    justify-content: space-around;
+    
+    .content-section-bus {
+
+      width: 90%;
+      margin: 0 auto;
+
+    }
+
+    .img-content {
+
+      width: 90%;
+      margin: 0 auto;
+      padding: 2px 2px 2px 2px;
+
+    }
+
+    .text-content {
+
+      margin: 0 auto;
+      
+
+    }
+    .content-section {
+
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    text-align: left; 
+     
+
+      .inverse-content {
+        
+        margin: 0 auto;
+        display: flex;
+        
+       
+      }
+
+      .img-content {
+
+        width: 90%;
+        margin: 0 auto;
+        padding: 2px 2px 2px 2px;
+  
+      }
+
+      .text-content {
+
+        width: 90%;
+        margin: 0 auto;
+        
+  
+      }
+
+    }
+
+    
+    .Nav-Top {
+
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      padding: 0px;     
+      width: 90%;
+      border-bottom: 1px dashed silver;
+      text-align: center;
+
+      .div-a {
+
+        margin: 0 auto;
+        
+        h1 {
+
+          padding: 10px 10px 10px 10px;
+          font-size: 2.6rem;
+          margin: 0 auto;
+
+        }
+
+      }
+
+      .div-b {
+
+        display: flex;
+        margin: 0 auto;
+        nav {
+          
+          display: flex;
+          margin: 0 auto;
+          width: 100%;
+         
+
+          a {
+            
+            font-size: 1.70rem;
+            margin: 0 auto;
+            
+          }
+
+      }
+      
+      }
+
+    }
+
+    .content-pick {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        
+        .destination {
+           
+          width: 70%;
+          margin: 0 auto;
+          padding-bottom: 5PX;
+
+          button {
+
+            margin: 0 auto; 
+            width: 85%;
+            
+          }
+
+          p {
+
+            
+            margin: 0 auto;
+            
+
+          }
+
+          h4 {
+
+            margin: 0 auto;
+
+          }
+
+        }
+
+        p {
+
+          margin: 0 auto;
+
+        }
+    }
+
+    .text-content {
+
+        display: block;
+
+        p {      
+          width: 100%;
+        }
+
+    }
+
+    .img-content {
+
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+
+  }
+
+  .content-destination {
+    
+    
+    margin: 0 auto;
+    width: 90%;
+    
+    .destination {
+      display: flex;
+      width: 90%; 
+      margin: 0 auto;
+
+      
+
+      p {
+
+        width: 90%; 
+        line-height: .25;
+
+      }
+      
+      
+      
+    }
+
+   
+  }
+  }
+}
